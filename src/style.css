@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Peddana&display=swap');
+
+@theme {
+    --font-base: "Peddana", serif;
+}
+
+:root {
+    font-family: var(--font-base);
+}
