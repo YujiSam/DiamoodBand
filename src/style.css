@@ -1,10 +1,23 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Peddana&display=swap');
 
-@theme {
-    --font-base: "Peddana", serif;
+/* 1. ESTILO REGULAR/NORMAL (Minúscula) */
+@font-face {
+    font-family: 'Diamood';
+    src: url('/fonts/DiamoodMinuscula-Regular.ttf') format('truetype');
+    font-weight: 400; /* Use 400 para normal */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 2. ESTILO BOLD/NEGRITO (Maiúscula) */
+@font-face {
+    font-family: 'Diamood';
+    src: url('/fonts/DiamoodMaiuscula-Regular.ttf') format('truetype');
+    font-weight: 700; /* Use 700 para bold */
+    font-style: normal;
+    font-display: swap;
 }
 
 :root {
-    font-family: var(--font-base);
+    font-family: 'Diamood', sans-serif;
 }
