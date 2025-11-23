@@ -1,15 +1,19 @@
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import {Outlet} from 'react-router-dom'
+import { useLocation, Outlet } from 'react-router-dom'
 
 
 function App() {
+
+  const location = useLocation();
+
+  const shouldShowFooter = location.pathname === '/';
 
   return (
     <>
       <Nav/>
       <Outlet/>
-      <Footer/>
+      {shouldShowFooter && <Footer/>}
     </>
   )
 }

@@ -5,6 +5,7 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import App from './App.jsx'
 import Home from './routes/Home.jsx'
 import Error from './routes/Error.jsx'
+import Info from './routes/Info.jsx'
 
 const router=createBrowserRouter([
   {
@@ -16,6 +17,8 @@ const router=createBrowserRouter([
     children:[
       //CRIANDO A ROTA HOME 
       {path:'/', element:<Home/>},
+      //CRIANDO AS OUTRAS ROTAS
+      {path:'/info', element:<Info/>},
     ]
 
   }

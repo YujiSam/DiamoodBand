@@ -4,16 +4,51 @@ const Nav = () => {
     return (
         <header className="w-full flex flex-col items-center pt-8 relative">
 
-            <nav className="font-Diamood w-full flex justify-center items-center px-16">
+            <nav className="font-Diamood font-[900] w-full flex justify-center items-center px-16">
 
-                <ul className="flex gap-52 text-[#002060] text-5xl tracking-wide">
-                    <li className="cursor-pointer hover:opacity-70">INFO</li>
-                    <li className="cursor-pointer hover:opacity-70">MEET</li>
-                    <li className="cursor-pointer hover:opacity-70">MUSIC/VIDEO</li>
-                    <li className="cursor-pointer hover:opacity-70">LETTER</li>
-                    <li className="cursor-pointer hover:opacity-70">GALLERY</li>
-                    <li className="cursor-pointer hover:opacity-70">MOODIEZ</li>
-                    <li className="cursor-pointer hover:opacity-70">NEWS</li>
+                <ul className="flex gap-36 text-[#002060] text-5xl tracking-wide">
+                    <li className="group">
+                        <Link to="/info" className="inline-block cursor-pointer transition-colors duration-200">
+                            Info
+                            <span className="block h-[5px] bg-[#002060] scale-x-0 group-hover:scale-x-100 transition-transform origin-left mt-1 rounded-[10px]"></span>
+                        </Link>
+                    </li>
+                    <li className="group">
+                        <Link className="inline-block cursor-pointer transition-colors duration-200">
+                            Meet
+                            <span className="block h-[5px] bg-[#002060] scale-x-0 group-hover:scale-x-100 transition-transform origin-left mt-1 rounded-[10px]"></span>
+                        </Link>
+                    </li>
+                    <li className="group">
+                        <Link className="inline-block cursor-pointer transition-colors duration-200">
+                            Music/Video
+                            <span className="block h-[5px] bg-[#002060] scale-x-0 group-hover:scale-x-100 transition-transform origin-left mt-1 rounded-[10px]"></span>
+                        </Link>
+                    </li>
+                    <li className="group">
+                        <Link className="inline-block cursor-pointer transition-colors duration-200">
+                            Letter
+                            <span className="block h-[5px] bg-[#002060] scale-x-0 group-hover:scale-x-100 transition-transform origin-left mt-1 rounded-[10px]"></span>
+                        </Link>
+                    </li>
+                    <li className="group">
+                        <Link className="inline-block cursor-pointer transition-colors duration-200">
+                            Gallery
+                            <span className="block h-[5px] bg-[#002060] scale-x-0 group-hover:scale-x-100 transition-transform origin-left mt-1 rounded-[10px]"></span>
+                        </Link>
+                    </li>
+                    <li className="group">
+                        <Link className="inline-block cursor-pointer transition-colors duration-200">
+                            Moodiez
+                            <span className="block h-[5px] bg-[#002060] scale-x-0 group-hover:scale-x-100 transition-transform origin-left mt-1 rounded-[10px]"></span>
+                        </Link>
+                    </li>
+                    <li className="group">
+                        <Link className="inline-block cursor-pointer transition-colors duration-200">
+                            News
+                            <span className="block h-[5px] bg-[#002060] scale-x-0 group-hover:scale-x-100 transition-transform origin-left mt-1 rounded-[10px]"></span>
+                        </Link>
+                    </li>
                 </ul>
 
             </nav>

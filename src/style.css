@@ -1,21 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&family=Peddana&display=swap');
+
 @import "tailwindcss";
 
-/* 1. ESTILO REGULAR/NORMAL (Minúscula) */
 @font-face {
     font-family: 'Diamood';
-    src: url('/fonts/DiamoodMinuscula-Regular.ttf') format('truetype');
-    font-weight: 400; /* Use 400 para normal */
+    src: url('/fonts/DiamoodFont-Regular.ttf') format('truetype');
+    font-weight: 400; 
     font-style: normal;
     font-display: swap;
 }
 
-/* 2. ESTILO BOLD/NEGRITO (Maiúscula) */
-@font-face {
-    font-family: 'Diamood';
-    src: url('/fonts/DiamoodMaiuscula-Regular.ttf') format('truetype');
-    font-weight: 700; /* Use 700 para bold */
-    font-style: normal;
-    font-display: swap;
+.text-gradient {
+    background-image: linear-gradient(to top, #436FFF, #284399); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 :root {
