@@ -4,7 +4,7 @@ const Home = () => {
 
         {/* LOGO CENTRAL */}
         <img 
-            src="/imgs/LOGO.png" 
+            src="/imgs/Diamood.png" 
             alt="Logo Diamood"
             className="mb-10 mt-0"
         />

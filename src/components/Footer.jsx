@@ -21,7 +21,7 @@ const Footer = () => {
             <a href="https://x.com/Diamoodb" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
                 <img src="/icons/X.png" className="w-6.5 h-6.5 cursor-pointer hover:opacity-80" alt="X" />
             </a>
-            <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <a href="https://www.youtube.com/@Diamood" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                 <img src="/icons/YOUTUBE.png" className="w-6.5 h-6.5 cursor-pointer hover:opacity-80" alt="YouTube" />
             </a>
             <a href="https://open.spotify.com/intl-pt/artist/6KHdTdbY21HJO4X4rVMqIz?si=Z9Orgkc1TKqpVM3L_2HQEA" target="_blank" rel="noopener noreferrer" aria-label="Spotify">

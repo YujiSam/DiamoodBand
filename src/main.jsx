@@ -6,6 +6,8 @@ import App from './App.jsx'
 import Home from './routes/Home.jsx'
 import Error from './routes/Error.jsx'
 import Info from './routes/Info.jsx'
+import Meet from './routes/Meet.jsx'
+import Letter from './routes/Letter.jsx';
 
 const router=createBrowserRouter([
   {
@@ -19,6 +21,8 @@ const router=createBrowserRouter([
       {path:'/', element:<Home/>},
       //CRIANDO AS OUTRAS ROTAS
       {path:'/info', element:<Info/>},
+      {path:'/meet', element:<Meet/>},
+      {path:'/letter', element:<Letter/>}
     ]
 
   }

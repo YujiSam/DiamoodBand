@@ -6,10 +6,10 @@ const Info = () => {
         <>
         <BackgroundBubbles 
             bubbles={[ 
-                { src: "/imgs/ELIPSE.png", top: "-40%", left: "55%",size: "35vw", rotate: "180deg" }, 
-                { src: "/imgs/ELIPSE.png", top: "-45%", left: "70%", size: "45vw", rotate: "180deg" }, 
-                { src: "/imgs/ELIPSE.png", top: "80%", left: "60%", size: "35vw" }, 
-                { src: "/imgs/ELIPSE.png", top: "55%", left: "75%", size: "35vw" }, 
+                { src: "/imgs/ELIPSE.png", top: "-40%", left: "55%",size: "35vw"}, 
+                { src: "/imgs/ELIPSE.png", top: "-45%", left: "70%", size: "45vw"}, 
+                { src: "/imgs/ELIPSE.png", top: "80%", left: "60%", size: "35vw"}, 
+                { src: "/imgs/ELIPSE.png", top: "55%", left: "75%", size: "35vw"}, 
         ]}/>
 
         <main className="grid grid-cols-1 md:grid-cols-2 content-start">
@@ -51,10 +51,8 @@ const Info = () => {
                 {/* TÍTULO */}
                 <h1
                     className="
-                        relative z-10 text-gradient font-[inter] font-bold
-
-                        text-5xl         
-                        md:text-8xl       
+                        relative z-10 text-gradient font-[inter] font-bold        
+                        md:text-9xl       
                         pb-4
                     "
                 >
