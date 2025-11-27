@@ -1,5 +1,6 @@
 // src/components/Carousel/Carousel.jsx
 import React, { useState, useEffect } from "react";
+import Item from "./Item";
 import "./carousel.css";
 
 function Carousel({
