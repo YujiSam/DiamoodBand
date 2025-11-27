@@ -39,7 +39,7 @@ function Carousel({
 
             comps.push(
                 <Item
-                    key={`${index}-${level}-${curr}`}
+                    key={items[index].id}
                     id={index}
                     level={level}
                     slide={items[index]}

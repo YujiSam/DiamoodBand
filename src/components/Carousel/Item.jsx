@@ -21,10 +21,14 @@ function Item({ id, level, slide, direction }) {
 
     const getStyles = () => {
         const base = {
-            transform: getTransform(),
-            transition: "all 0.55s cubic-bezier(.22,.61,.36,1)",
+        transform: getTransform(),
+            // ✨ transição suave só de transform/opacity/blur
+            transition:
+                "transform 0.7s cubic-bezier(.22,.61,.36,1), " +
+                "opacity 0.7s ease-out, " +
+                "filter 0.7s ease-out",
             width: "55%",
-            height: "100%"
+            height: "100%",
         };
 
         switch (level) {
