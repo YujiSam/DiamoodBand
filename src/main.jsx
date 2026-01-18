@@ -8,6 +8,7 @@ import Error from './routes/Error.jsx'
 import Info from './routes/Info.jsx'
 import Meet from './routes/Meet.jsx'
 import Letter from './routes/Letter.jsx';
+import MusicVideo from './routes/MusicVideo.jsx'  
 
 const router=createBrowserRouter([
   {
@@ -22,7 +23,8 @@ const router=createBrowserRouter([
       //CRIANDO AS OUTRAS ROTAS
       {path:'/info', element:<Info/>},
       {path:'/meet', element:<Meet/>},
-      {path:'/letter', element:<Letter/>}
+      {path:'/letter', element:<Letter/>},
+      {path:'/musicvideo', element:<MusicVideo/>}
     ]
 
   }

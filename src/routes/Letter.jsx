@@ -2,14 +2,14 @@ import BackgroundBubbles from "../components/BackgroundBubbles";
 
 const Letter = () => {
     return (
-        <div className="relative w-full min-h-screen bg-[#EDFFFD] overflow-hidden">
+        <div className="relative w-full min-h-screen bg-[#EDFFFD]">
 
             {/* FLOATING BUBBLES */}
             <div className="absolute inset-0 z-10">
                 <BackgroundBubbles 
                     bubbles={[
                         { src: "/imgs/ELIPSE.png", top: "10%", left: "13%", size: "15vw"}, 
-                        { src: "/imgs/ELIPSE.png", top: "45%", left: "-7%", size: "25vw"}, 
+                        { src: "/imgs/ELIPSE.png", top: "45%", left: "-7%", size: "25vw"},  
                         { src: "/imgs/ELIPSE.png", top: "70%", left: "-5%", size: "35vw"}, 
                         { src: "/imgs/ELIPSE.png", top: "65%", left: "85%", size: "20vw"}, 
                         { src: "/imgs/ELIPSE.png", top: "-10%", left: "75%", size: "30vw"}, 
@@ -18,7 +18,7 @@ const Letter = () => {
             </div>
 
             {/* MAIN CONTENT */}
-            <main className="relative z-20 w-full flex flex-col items-center justify-start pt-4 pb-32 select-none">
+            <main className="relative z-20 w-full flex flex-col items-center justify-start pt-4 pb-32 select-none pt-32">
 
                 <h1 className="text-[6vw] font-light italic text-gradient tracking-wide font-[Ephesis] mb-4">
                     A Letter For You...

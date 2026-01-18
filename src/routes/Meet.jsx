@@ -32,7 +32,7 @@ const Meet = () => {
             />
 
             <main 
-                className="w-full flex flex-col items-center justify-start px-4"
+                className="w-full flex flex-col items-center justify-start px-4 pt-32"
                 style={{ userSelect: 'none' }}
             >
                 <h1 className="text-center font-[inter] text-gradient font-bold text-xl md:text-9xl mb-12">

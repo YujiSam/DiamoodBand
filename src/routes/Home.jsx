@@ -2,7 +2,7 @@ import DotGrid from '../components/DotGrid.jsx';
 
 const Home = () => {
     return (
-        <main className="w-full flex flex-col items-center justify-center select-none">
+        <main className="w-full flex flex-col items-center justify-center select-none pt-32">
             
             <div className="fixed top-0 w-full h-full -z-10">
                 <DotGrid

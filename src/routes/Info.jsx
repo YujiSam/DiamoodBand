@@ -12,7 +12,7 @@ const Info = () => {
                 { src: "/imgs/ELIPSE.png", top: "55%", left: "75%", size: "35vw"}, 
         ]}/>
 
-        <main className="grid grid-cols-1 md:grid-cols-2 content-start">
+        <main className="grid grid-cols-1 md:grid-cols-2 content-start pt-32">
 
             <div className="relative w-full flex flex-col mt-12 md:mt-24">
                 
