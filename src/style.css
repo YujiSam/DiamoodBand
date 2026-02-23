@@ -11,3 +11,7 @@
     color: transparent;
 }
 
+.gradient {
+    background: linear-gradient(135deg, #00165E, #1B43D6);
+}
+

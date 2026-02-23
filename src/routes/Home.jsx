@@ -34,7 +34,6 @@ const Home = () => {
                     />
                 </button>
             </div>
-
         </main>
     )
 }
